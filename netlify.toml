@@ -3,12 +3,12 @@
   publish = "dist"
 
 [template.environment]
-  VUE_APP_CT_PROJECT_KEY = "Your project key (optional)"
-  VUE_APP_CT_CLIENT_ID = "Your client ID (if project key set)"
-  VUE_APP_CT_CLIENT_SECRET = "Your client secret (if project key set)"
-  VUE_APP_CT_SCOPE = "Your client scope (if project key set)"
-  VUE_APP_CT_AUTH_HOST = "Auth host (default Europe)"
-  VUE_APP_CT_API_HOST = "API host (default Europe)"
+  VUE_APP_CT_PROJECT_KEY=sunrise-with-data
+  VUE_APP_CT_CLIENT_ID=4M1Oohk-lGK9GgYTNmZk0Lpt
+  VUE_APP_CT_CLIENT_SECRET=MvtIkMBAWvyoCLdgIWna1b6KXsPNqzY7
+  VUE_APP_CT_SCOPE=create_anonymous_token:sunrise-with-data view_products:sunrise-with-data manage_my_profile:sunrise-with-data view_published_products:sunrise-with-data manage_my_orders:sunrise-with-data manage_my_shopping_lists:sunrise-with-data view_categories:sunrise-with-data manage_my_payments:sunrise-with-data
+  VUE_APP_CT_AUTH_HOST=https://auth.us-central1.gcp.commercetools.com
+  VUE_APP_CT_API_HOST=https://api.us-central1.gcp.commercetools.com
   YARN_FLAGS = "--no-ignore-optional"
 
 # Rule for router history mode
